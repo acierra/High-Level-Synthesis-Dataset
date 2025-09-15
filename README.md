@@ -4,7 +4,7 @@ This repository provides part of the source code used for the generation and ana
 DATASET:
 https://huggingface.co/datasets/aferikoglou/GNWSIS/tree/main
 
-https://drive.google.com/file/d/1VKzLXKU40skQlyLeqFgQdifboTaWnMiL/view?usp=sharing
+https://huggingface.co/datasets/aferikoglou/GNWSIS/resolve/main/GN%CE%A9SIS.csv
 
 Dataset Schema
 The GNΩSIS dataset is organized as a CSV file, where each row corresponds to a distinct hardware design configuration for a specific application, targeting a particular FPGA and clock frequency. It includes both configuration parameters and associated performance and resource utilization metrics.
