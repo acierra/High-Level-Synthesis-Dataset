@@ -6,6 +6,21 @@ https://huggingface.co/datasets/aferikoglou/GNWSIS/tree/main
 
 https://huggingface.co/datasets/aferikoglou/GNWSIS/resolve/main/GN%CE%A9SIS.csv
 
+## Окружение
+
+Использую Miniconda + Poetry.
+
+### Установка окружения
+```bash
+brew install --cask miniconda
+conda create -n my_env python=3.13 pip
+conda activate my_env
+pip install poetry
+poetry install --no-root
+
+Запуск
+python3 data_loader.py
+
 Dataset Schema
 The GNΩSIS dataset is organized as a CSV file, where each row corresponds to a distinct hardware design configuration for a specific application, targeting a particular FPGA and clock frequency. It includes both configuration parameters and associated performance and resource utilization metrics.
 
