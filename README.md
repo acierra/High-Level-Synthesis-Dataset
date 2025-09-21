@@ -1,7 +1,7 @@
 # High-Level-Synthesis-Dataset
 This repository provides part of the source code used for the generation and analysis of the GNΩSIS dataset
 
-DATASET:
+## DATASET:
 https://huggingface.co/datasets/aferikoglou/GNWSIS/tree/main
 
 https://huggingface.co/datasets/aferikoglou/GNWSIS/resolve/main/GN%CE%A9SIS.csv
@@ -10,7 +10,7 @@ https://huggingface.co/datasets/aferikoglou/GNWSIS/resolve/main/GN%CE%A9SIS.csv
 
 Использую Miniconda + Poetry.
 
-### Установка окружения
+## Установка окружения
 bash
 brew install --cask miniconda
 conda create -n my_env python=3.13 pip
@@ -18,13 +18,13 @@ conda activate my_env
 pip install poetry
 poetry install --no-root
 
-Запуск
+## Запуск
 python3 data_loader.py
 
-Dataset Schema
+## Dataset Schema
 The GNΩSIS dataset is organized as a CSV file, where each row corresponds to a distinct hardware design configuration for a specific application, targeting a particular FPGA and clock frequency. It includes both configuration parameters and associated performance and resource utilization metrics.
 
-Configuration Parameters
+## Configuration Parameters
 These columns define the application context and the design parameters:
 
 Application_Name: The name of the application being analyzed.
