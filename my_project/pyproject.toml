@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "my_project"
+version = "0.1.0"
+description = "HW2 data loader"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pandas = "*"
+matplotlib = "*"
+jupyterlab = "*"
+wget = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
