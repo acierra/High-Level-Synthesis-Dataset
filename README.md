@@ -20,6 +20,7 @@ poetry install --no-root
 
 ## Запуск
 python3 data_loader.py
+docs/Screenshot 2025-09-22 at 01.22.42.png
 
 ## Dataset Schema
 The GNΩSIS dataset is organized as a CSV file, where each row corresponds to a distinct hardware design configuration for a specific application, targeting a particular FPGA and clock frequency. It includes both configuration parameters and associated performance and resource utilization metrics.
