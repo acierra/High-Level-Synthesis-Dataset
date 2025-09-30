@@ -22,6 +22,7 @@ poetry install --no-root
 python3 data_loader.py
 
 ![docs/Screenshot 2025-09-22 at 01.22.42.png](https://github.com/acierra/High-Level-Synthesis-Dataset/blob/main/docs/Screenshot%202025-09-22%20at%2001.22.42.png)
+![docs/Screenshot%202025-09-30%20at%2011.29.08.png](https://github.com/acierra/High-Level-Synthesis-Dataset/blob/main/docs/Screenshot%202025-09-30%20at%2011.29.08.png)
 
 ## Dataset Schema
 The GNΩSIS dataset is organized as a CSV file, where each row corresponds to a distinct hardware design configuration for a specific application, targeting a particular FPGA and clock frequency. It includes both configuration parameters and associated performance and resource utilization metrics.
