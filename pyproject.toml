@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "my_project"
+name = "high-level-synthesis-dataset"
 version = "0.1.0"
-description = "HW2 data loader"
+description = "high-level-synthesis-dataset"
 authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 packages = []
