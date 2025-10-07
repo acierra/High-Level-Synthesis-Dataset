@@ -1,5 +1,5 @@
 # api_example: поиск репозиториев с упоминанием GNWSIS
-![api](https://github.com/acierra/High-Level-Synthesis-Dataset/tree/main/screenshots/api_reader.png)
+![api](screenshots/api_reader.png)
 
 В этом примере используется **GitHub Search API**, чтобы найти все публичные проекты на GitHub, где встречается `GNWSIS` или `GNWSIS.csv`.  
 Таким образом можно отследить, какие репозитории используют или упоминают датасет GNWSIS.
