@@ -1,7 +1,6 @@
-#!/usr/bin/env python3
 import os, requests, pandas as pd
 
-# ищем все упоминания GNWSIS в коде на GitHub
+# все упоминания GNWSIS в коде на GitHub
 SEARCH_TERMS = [
     "GNWSIS",
     "GNWSIS.csv",
