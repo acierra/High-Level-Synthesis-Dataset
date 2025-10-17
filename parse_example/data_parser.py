@@ -28,7 +28,7 @@ def main():
         df = pd.concat(dfs, ignore_index=True)
         print(df.head(10))
     else:
-        print("⚠️ Таблицы не найдены")
+        print("Таблицы не найдены")
 
 if __name__ == "__main__":
     main()
