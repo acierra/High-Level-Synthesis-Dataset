@@ -1,0 +1,7 @@
+creds.db
+*.db
+
+notebook/newdata/*.csv
+notebook/newdata/*.parquet
+notebook/newdata/*.ipynb_checkpoints/
+
