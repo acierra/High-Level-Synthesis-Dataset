@@ -45,3 +45,20 @@ Synthesis_Time_sec: Total time taken to synthesize the design, in seconds.
 BRAM_Utilization_percentage, DSP_Utilization_percentage, FF_Utilization_percentage, LUT_Utilization_percentage: Resource usage reported as a percentage of the total available on the target FPGA device.
 Speedup: Performance improvement factor compared to a baseline implementation.
 BRAMs, DSPs, FFs, LUTs: Calculated absolute resource usage based on utilization percentage and the FPGA's total capacity.
+
+## EDA и визуализации
+
+- Ноутбук: `notebook/EDA.ipynb`
+- Статические графики: папка `docs/plots/` (автогенерация скриптом `viz_seaborn.py`)
+- Датасет: FPGA HLS (сводная таблица синтезов). Поля:
+  - `Speedup` — ускорение реализации на ПЛИС относительно базовой реализации (больше — лучше)
+  - `Latency_msec` — задержка исполнения, мс (меньше — лучше)
+  - `Clock_Period_nsec` — целевой тактовый период синтеза, нс
+  - `LUTs`, `FFs`, `DSPs`, `BRAMs` — потребление базовых ресурсов ПЛИС
+  - `*_Utilization_percentage` — доля использования ресурса, %
+  - `Application_Name`, `Version`, `Device` — метаданные проекта и чипа
+
+### Быстрый рендер графиков
+```bash
+python3 viz_seaborn.py --csv notebook/newdata/gnwsis_clean.csv --out docs/plots
+
