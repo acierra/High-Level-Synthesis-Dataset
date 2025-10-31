@@ -1,18 +1,13 @@
-[tool.poetry]
-name = "high-level-synthesis-dataset"
+[project]
+name = "hls-etl"
 version = "0.1.0"
-description = "high-level-synthesis-dataset"
-authors = ["Your Name <you@example.com>"]
-readme = "README.md"
-packages = []
-
-[tool.poetry.dependencies]
-python = "^3.13"
-pandas = "*"
-matplotlib = "*"
-jupyterlab = "*"
-wget = "*"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.0",
+  "numpy>=1.26",
+  "sqlalchemy>=2.0",
+  "psycopg2-binary>=2.9",
+  "pyarrow>=15.0",
+  "matplotlib>=3.8",
+  "seaborn>=0.13"
+]
