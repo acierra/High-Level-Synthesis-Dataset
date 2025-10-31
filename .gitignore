@@ -5,4 +5,4 @@ notebook/newdata/*.csv
 notebook/newdata/*.parquet
 notebook/newdata/*.ipynb_checkpoints/
 data/raw/*.csv
-
+data/processed/*.parquet
