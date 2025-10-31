@@ -6,6 +6,21 @@ https://huggingface.co/datasets/aferikoglou/GNWSIS/tree/main
 
 https://huggingface.co/datasets/aferikoglou/GNWSIS/resolve/main/GN%CE%A9SIS.csv
 
+Модульный ETL-пакет для обработки и анализа данных о проектах High-Level Synthesis (FPGA/HLS), включая этапы загрузки, валидации, преобразования и выгрузки данных в PostgreSQL и Parquet.
+Проект реализует полный цикл работы с данными:
+
+Extract – загрузка и валидация исходного CSV.
+
+Transform – базовые преобразования и очистка данных.
+
+Validate – проверка корректности данных.
+
+Load – выгрузка в PostgreSQL и Parquet.
+
+Main – объединение всех шагов через CLI-интерфейс.
+
+EDA и визуализация – исследование и представление данных.
+
 ## Окружение
 
 Использую Miniconda + Poetry.
