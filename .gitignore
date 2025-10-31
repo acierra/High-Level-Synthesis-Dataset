@@ -1,8 +1,11 @@
-creds.db
-*.db
+data/
+notebook/newdata/
+*.csv
+*.parquet
 
-notebook/newdata/*.csv
-notebook/newdata/*.parquet
-notebook/newdata/*.ipynb_checkpoints/
-data/raw/*.csv
-data/processed/*.parquet
+creds.db
+
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
