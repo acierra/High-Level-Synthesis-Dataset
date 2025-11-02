@@ -32,9 +32,17 @@ conda create -n my_env python=3.13 pip
 conda activate my_env
 pip install poetry
 poetry install --no-root
+pip install pandas numpy sqlalchemy psycopg2-binary pyarrow matplotlib seaborn jupyter
 
 ## Запуск
-python3 data_loader.py
+python -m etl.main \
+  --csv notebook/newdata/gnwsis_clean.csv \
+  --creds creds.db \
+  --table kuchieva \
+  --rawdir data/raw \
+  --outdir data/processed \
+  --limit 100
+
 
 ![docs/Screenshot 2025-09-22 at 01.22.42.png](https://github.com/acierra/High-Level-Synthesis-Dataset/blob/main/docs/Screenshot%202025-09-22%20at%2001.22.42.png)
 ![docs/Screenshot%202025-09-30%20at%2011.29.08.png](https://github.com/acierra/High-Level-Synthesis-Dataset/blob/main/docs/Screenshot%202025-09-30%20at%2011.29.08.png)
